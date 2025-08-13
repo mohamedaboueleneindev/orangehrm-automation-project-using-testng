@@ -1,4 +1,0 @@
-# Created at 2025-08-12T00:56:36.398
-
-testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy() is depending on method public void testCases.login_Tests.TC001_LoginTest.Verify_Login(), which is not annotated with @Test or not included.
-

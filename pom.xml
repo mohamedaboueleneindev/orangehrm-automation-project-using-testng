@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mohamedaboelenin</groupId>
+    <artifactId>orangehrm</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.5</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>${surefire.suiteXmlFiles}</suiteXmlFile>
+                </suiteXmlFiles>
+                <properties>
+                    <property>
+                        <name>listener</name>
+                        <value>io.qameta.allure.testng.AllureTestNg</value>
+                    </property>
+                </properties>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-maven</artifactId>
+            <version>2.12.0</version>
+            <configuration>
+                <resultsDirectory>${project.basedir}/allure-results</resultsDirectory>
+                <reportDirectory>${project.basedir}/allure-report</reportDirectory>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <surefire.suiteXmlFiles>testng.xml</surefire.suiteXmlFiles>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.34.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.25.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.25.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.18.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.2</version>
+        </dependency>
+
+        <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-testng</artifactId>
+        <version>2.29.0</version>
+    </dependency>
+
+        <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.8.0</version>
+    </dependency>
+    <dependency>
+        <groupId>net.datafaker</groupId>
+        <artifactId>datafaker</artifactId>
+        <version>2.4.4</version>
+    </dependency>
+
+    </dependencies>
+
+<profiles>
+    <profile>
+        <id>chrome-smoke</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/chromeTestSuites/smokeTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>chrome-sanity</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/chromeTestSuites/sanityTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>chrome-functional</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/chromeTestSuites/functionalTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+
+    <profile>
+        <id>edge-smoke</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/edgeTestSuites/smokeTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>edge-sanity</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/edgeTestSuites/sanityTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>edge-functional</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/edgeTestSuites/functionalTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+
+    <profile>
+        <id>firefox-smoke</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/firefoxTestSuites/smokeTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>firefox-sanity</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/firefoxTestSuites/sanityTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>firefox-functional</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/firefoxTestSuites/functionalTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    
+    <profile>
+        <id>cross-smoke</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/crossbrowserTestSuites/smokeTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>cross-sanity</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/crossbrowserTestSuites/sanityTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+    <profile>
+        <id>cross-functional</id>
+        <properties>
+            <surefire.suiteXmlFiles>TestSuites/crossbrowserTestSuites/functionalTesting.xml</surefire.suiteXmlFiles>
+        </properties>
+    </profile>
+</profiles>
+
+</project>

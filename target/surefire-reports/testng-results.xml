@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T02:32:27 EEST" name="cross-Functional" finished-at="2025-08-12T02:40:07 EEST" duration-ms="459822">
+    <groups>
+      <group name="functional">
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddCandidateToShortList()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_AddCandidateToShortList" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_SchedulingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_SchedulingInterview" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_PassingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_PassingInterview" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_OfferJob()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_OfferJob" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_HiringCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_HiringCandidate" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC008_RemoveEmployeeTest.Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@5e7cd6cc]" name="Verify_AddEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest"/>
+        <method signature="TC002_Login_DataDrivenTesting.Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" name="Verify_Login_with_dataDrivenTesting" class="testCases.login_Tests.TC002_Login_DataDrivenTesting"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddCandidateToShortList()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_AddCandidateToShortList" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_SchedulingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_SchedulingInterview" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_PassingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_PassingInterview" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_OfferJob()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_OfferJob" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_HiringCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_HiringCandidate" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC008_RemoveEmployeeTest.Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@1f9f6368]" name="Verify_AddEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest"/>
+        <method signature="TC002_Login_DataDrivenTesting.Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" name="Verify_Login_with_dataDrivenTesting" class="testCases.login_Tests.TC002_Login_DataDrivenTesting"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddCandidateToShortList()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_AddCandidateToShortList" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_SchedulingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_SchedulingInterview" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_PassingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_PassingInterview" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_OfferJob()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_OfferJob" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_HiringCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_HiringCandidate" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC008_RemoveEmployeeTest.Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@29f7cefd]" name="Verify_AddEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest"/>
+        <method signature="TC002_Login_DataDrivenTesting.Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" name="Verify_Login_with_dataDrivenTesting" class="testCases.login_Tests.TC002_Login_DataDrivenTesting"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="TC001_LoginTest.Verify_Login()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@194fad1]" name="Verify_Login" class="testCases.login_Tests.TC001_LoginTest"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_AddingVacancy" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddingCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" name="Validate_AddingCandidate" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC003_AddEmployeeTest.Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@790da477]" name="Verify_AddEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest"/>
+        <method signature="TC001_LoginTest.Verify_Login()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@798162bc]" name="Verify_Login" class="testCases.login_Tests.TC001_LoginTest"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_AddingVacancy" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddingCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" name="Validate_AddingCandidate" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC003_AddEmployeeTest.Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@23941fb4]" name="Verify_AddEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest"/>
+        <method signature="TC001_LoginTest.Verify_Login()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@49c90a9c]" name="Verify_Login" class="testCases.login_Tests.TC001_LoginTest"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_AddingVacancy" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC009_CandidateAddingToHiring_Test.Validate_AddingCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" name="Validate_AddingCandidate" class="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test"/>
+        <method signature="TC003_AddEmployeeTest.Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@69ee81fc]" name="Verify_AddEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC004_SearchforEmployeeTest.Verify_SearchEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@5c7933ad]" name="Verify_SearchEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest"/>
+        <method signature="TC005_LoginNewEmployeeTest.Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@57bc27f5]" name="Verify_LoginWithNewEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest"/>
+        <method signature="TC006_TerminateEmployeeContractTest.Verify_TerminateEmployeeContract()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5fb759d6]" name="Verify_TerminateEmployeeContract" class="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest"/>
+        <method signature="TC007_LoginAsTerminatedEmployeeTest.Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@4b8d604b]" name="Verify_LoginWithNewEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest"/>
+        <method signature="TC004_SearchforEmployeeTest.Verify_SearchEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@7486b455]" name="Verify_SearchEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest"/>
+        <method signature="TC005_LoginNewEmployeeTest.Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@660acfb]" name="Verify_LoginWithNewEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest"/>
+        <method signature="TC006_TerminateEmployeeContractTest.Verify_TerminateEmployeeContract()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5d908d47]" name="Verify_TerminateEmployeeContract" class="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest"/>
+        <method signature="TC007_LoginAsTerminatedEmployeeTest.Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@5efa40fe]" name="Verify_LoginWithNewEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest"/>
+        <method signature="TC004_SearchforEmployeeTest.Verify_SearchEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@6e2aa843]" name="Verify_SearchEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest"/>
+        <method signature="TC005_LoginNewEmployeeTest.Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@6f36c2f0]" name="Verify_LoginWithNewEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest"/>
+        <method signature="TC006_TerminateEmployeeContractTest.Verify_TerminateEmployeeContract()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@f58853c]" name="Verify_TerminateEmployeeContract" class="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest"/>
+        <method signature="TC007_LoginAsTerminatedEmployeeTest.Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@1224144a]" name="Verify_LoginWithNewEmployee" class="testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-08-12T02:32:27 EEST" name="chromeTest" finished-at="2025-08-12T02:34:56 EEST" duration-ms="149169">
+      <class name="testCases.login_Tests.TC002_Login_DataDrivenTesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:44 EEST" name="setup" finished-at="2025-08-12T02:32:47 EEST" duration-ms="3052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:48 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:32:49 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:49 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:32:50 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:50 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:32:50 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:50 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:32:52 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:52 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:32:56 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="3463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:56 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:32:58 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="2595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@5b7a7f33]" started-at="2025-08-12T02:32:58 EEST" name="teardown" finished-at="2025-08-12T02:32:59 EEST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.login_Tests.TC002_Login_DataDrivenTesting -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@5c7933ad]" started-at="2025-08-12T02:33:12 EEST" name="setup" finished-at="2025-08-12T02:33:15 EEST" duration-ms="3003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_SearchEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@5c7933ad]" started-at="2025-08-12T02:33:15 EEST" name="Verify_SearchEmployee" finished-at="2025-08-12T02:33:24 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="8638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@5c7933ad]" started-at="2025-08-12T02:33:24 EEST" name="teardown" finished-at="2025-08-12T02:33:24 EEST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@4b8d604b]" started-at="2025-08-12T02:33:48 EEST" name="setup" finished-at="2025-08-12T02:33:51 EEST" duration-ms="2982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@4b8d604b]" started-at="2025-08-12T02:33:51 EEST" name="Verify_LoginWithNewEmployee" finished-at="2025-08-12T02:33:54 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest.Verify_TerminateEmployeeContract" duration-ms="2873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginWithNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@4b8d604b]" started-at="2025-08-12T02:33:54 EEST" name="teardown" finished-at="2025-08-12T02:33:54 EEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@57bc27f5]" started-at="2025-08-12T02:33:24 EEST" name="setup" finished-at="2025-08-12T02:33:27 EEST" duration-ms="2968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@57bc27f5]" started-at="2025-08-12T02:33:27 EEST" name="Verify_LoginWithNewEmployee" finished-at="2025-08-12T02:33:30 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginWithNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@57bc27f5]" started-at="2025-08-12T02:33:30 EEST" name="teardown" finished-at="2025-08-12T02:33:30 EEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@790da477]" started-at="2025-08-12T02:32:59 EEST" name="setup" finished-at="2025-08-12T02:33:02 EEST" duration-ms="3450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@790da477]" started-at="2025-08-12T02:33:02 EEST" name="Verify_AddEmployee" finished-at="2025-08-12T02:33:12 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="9904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@790da477]" started-at="2025-08-12T02:33:12 EEST" name="teardown" finished-at="2025-08-12T02:33:12 EEST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest -->
+      <class name="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:08 EEST" name="setup" finished-at="2025-08-12T02:34:11 EEST" duration-ms="3002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_AddingVacancy()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:11 EEST" name="Validate_AddingVacancy" finished-at="2025-08-12T02:34:22 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="11546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddingVacancy -->
+        <test-method signature="Validate_AddingCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:22 EEST" name="Validate_AddingCandidate" finished-at="2025-08-12T02:34:26 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddingCandidate -->
+        <test-method signature="Validate_AddCandidateToShortList()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:27 EEST" name="Validate_AddCandidateToShortList" finished-at="2025-08-12T02:34:32 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingCandidate" duration-ms="5726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddCandidateToShortList -->
+        <test-method signature="Validate_SchedulingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:32 EEST" name="Validate_SchedulingInterview" finished-at="2025-08-12T02:34:40 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddCandidateToShortList" duration-ms="7923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SchedulingInterview -->
+        <test-method signature="Validate_PassingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:40 EEST" name="Validate_PassingInterview" finished-at="2025-08-12T02:34:45 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_SchedulingInterview" duration-ms="5284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PassingInterview -->
+        <test-method signature="Validate_OfferJob()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:45 EEST" name="Validate_OfferJob" finished-at="2025-08-12T02:34:51 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_PassingInterview" duration-ms="5317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_OfferJob -->
+        <test-method signature="Validate_HiringCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:51 EEST" name="Validate_HiringCandidate" finished-at="2025-08-12T02:34:56 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_OfferJob" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HiringCandidate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@2dfaea86]" started-at="2025-08-12T02:34:56 EEST" name="teardown" finished-at="2025-08-12T02:34:56 EEST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5fb759d6]" started-at="2025-08-12T02:33:30 EEST" name="setup" finished-at="2025-08-12T02:33:33 EEST" duration-ms="3079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_TerminateEmployeeContract()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5fb759d6]" started-at="2025-08-12T02:33:33 EEST" name="Verify_TerminateEmployeeContract" finished-at="2025-08-12T02:33:48 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="14476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TerminateEmployeeContract -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5fb759d6]" started-at="2025-08-12T02:33:48 EEST" name="teardown" finished-at="2025-08-12T02:33:48 EEST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@5e7cd6cc]" started-at="2025-08-12T02:33:54 EEST" name="setup" finished-at="2025-08-12T02:33:57 EEST" duration-ms="3084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@5e7cd6cc]" started-at="2025-08-12T02:33:57 EEST" name="Verify_AddEmployee" finished-at="2025-08-12T02:34:07 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="9954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@5e7cd6cc]" started-at="2025-08-12T02:34:07 EEST" name="teardown" finished-at="2025-08-12T02:34:08 EEST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest -->
+      <class name="testCases.login_Tests.TC001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.login_Tests.TC001_LoginTest@194fad1]" started-at="2025-08-12T02:32:28 EEST" name="setup" finished-at="2025-08-12T02:32:40 EEST" duration-ms="12452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@194fad1]" started-at="2025-08-12T02:32:40 EEST" name="Verify_Login" finished-at="2025-08-12T02:32:43 EEST" duration-ms="3156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@194fad1]" started-at="2025-08-12T02:32:44 EEST" name="teardown" finished-at="2025-08-12T02:32:44 EEST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardownRandomObject()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@194fad1]" started-at="2025-08-12T02:34:56 EEST" name="teardownRandomObject" finished-at="2025-08-12T02:34:56 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownRandomObject -->
+      </class> <!-- testCases.login_Tests.TC001_LoginTest -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-08-12T02:34:57 EEST" name="firefoxTest" finished-at="2025-08-12T02:37:41 EEST" duration-ms="164014">
+      <class name="testCases.login_Tests.TC002_Login_DataDrivenTesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:08 EEST" name="setup" finished-at="2025-08-12T02:35:14 EEST" duration-ms="5380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:14 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:35:14 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:14 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:35:15 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:15 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:35:15 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:15 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:35:16 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:16 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:35:20 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:20 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:35:22 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="2527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@1df8da7a]" started-at="2025-08-12T02:35:22 EEST" name="teardown" finished-at="2025-08-12T02:35:23 EEST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.login_Tests.TC002_Login_DataDrivenTesting -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@7486b455]" started-at="2025-08-12T02:35:39 EEST" name="setup" finished-at="2025-08-12T02:35:44 EEST" duration-ms="5329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_SearchEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@7486b455]" started-at="2025-08-12T02:35:44 EEST" name="Verify_SearchEmployee" finished-at="2025-08-12T02:35:53 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="8223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@7486b455]" started-at="2025-08-12T02:35:53 EEST" name="teardown" finished-at="2025-08-12T02:35:54 EEST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@5efa40fe]" started-at="2025-08-12T02:36:24 EEST" name="setup" finished-at="2025-08-12T02:36:29 EEST" duration-ms="5450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@5efa40fe]" started-at="2025-08-12T02:36:29 EEST" name="Verify_LoginWithNewEmployee" finished-at="2025-08-12T02:36:32 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest.Verify_TerminateEmployeeContract" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginWithNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@5efa40fe]" started-at="2025-08-12T02:36:32 EEST" name="teardown" finished-at="2025-08-12T02:36:33 EEST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@660acfb]" started-at="2025-08-12T02:35:54 EEST" name="setup" finished-at="2025-08-12T02:35:59 EEST" duration-ms="5497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@660acfb]" started-at="2025-08-12T02:35:59 EEST" name="Verify_LoginWithNewEmployee" finished-at="2025-08-12T02:36:02 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginWithNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@660acfb]" started-at="2025-08-12T02:36:02 EEST" name="teardown" finished-at="2025-08-12T02:36:03 EEST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@23941fb4]" started-at="2025-08-12T02:35:23 EEST" name="setup" finished-at="2025-08-12T02:35:29 EEST" duration-ms="5583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@23941fb4]" started-at="2025-08-12T02:35:29 EEST" name="Verify_AddEmployee" finished-at="2025-08-12T02:35:38 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="8729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@23941fb4]" started-at="2025-08-12T02:35:38 EEST" name="teardown" finished-at="2025-08-12T02:35:39 EEST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest -->
+      <class name="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:36:49 EEST" name="setup" finished-at="2025-08-12T02:36:54 EEST" duration-ms="5369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_AddingVacancy()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:36:54 EEST" name="Validate_AddingVacancy" finished-at="2025-08-12T02:37:06 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="11842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddingVacancy -->
+        <test-method signature="Validate_AddingCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:06 EEST" name="Validate_AddingCandidate" finished-at="2025-08-12T02:37:10 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddingCandidate -->
+        <test-method signature="Validate_AddCandidateToShortList()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:10 EEST" name="Validate_AddCandidateToShortList" finished-at="2025-08-12T02:37:16 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingCandidate" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddCandidateToShortList -->
+        <test-method signature="Validate_SchedulingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:16 EEST" name="Validate_SchedulingInterview" finished-at="2025-08-12T02:37:23 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddCandidateToShortList" duration-ms="7150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SchedulingInterview -->
+        <test-method signature="Validate_PassingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:23 EEST" name="Validate_PassingInterview" finished-at="2025-08-12T02:37:28 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_SchedulingInterview" duration-ms="5368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PassingInterview -->
+        <test-method signature="Validate_OfferJob()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:28 EEST" name="Validate_OfferJob" finished-at="2025-08-12T02:37:34 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_PassingInterview" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_OfferJob -->
+        <test-method signature="Validate_HiringCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:34 EEST" name="Validate_HiringCandidate" finished-at="2025-08-12T02:37:39 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_OfferJob" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HiringCandidate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@1c9b0314]" started-at="2025-08-12T02:37:39 EEST" name="teardown" finished-at="2025-08-12T02:37:41 EEST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5d908d47]" started-at="2025-08-12T02:36:03 EEST" name="setup" finished-at="2025-08-12T02:36:08 EEST" duration-ms="5341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_TerminateEmployeeContract()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5d908d47]" started-at="2025-08-12T02:36:08 EEST" name="Verify_TerminateEmployeeContract" finished-at="2025-08-12T02:36:23 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="14301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TerminateEmployeeContract -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@5d908d47]" started-at="2025-08-12T02:36:23 EEST" name="teardown" finished-at="2025-08-12T02:36:24 EEST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@1f9f6368]" started-at="2025-08-12T02:36:33 EEST" name="setup" finished-at="2025-08-12T02:36:39 EEST" duration-ms="5562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@1f9f6368]" started-at="2025-08-12T02:36:39 EEST" name="Verify_AddEmployee" finished-at="2025-08-12T02:36:48 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="9250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@1f9f6368]" started-at="2025-08-12T02:36:48 EEST" name="teardown" finished-at="2025-08-12T02:36:49 EEST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest -->
+      <class name="testCases.login_Tests.TC001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.login_Tests.TC001_LoginTest@798162bc]" started-at="2025-08-12T02:34:57 EEST" name="setup" finished-at="2025-08-12T02:35:05 EEST" duration-ms="8008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@798162bc]" started-at="2025-08-12T02:35:05 EEST" name="Verify_Login" finished-at="2025-08-12T02:35:07 EEST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@798162bc]" started-at="2025-08-12T02:35:07 EEST" name="teardown" finished-at="2025-08-12T02:35:08 EEST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardownRandomObject()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@798162bc]" started-at="2025-08-12T02:37:41 EEST" name="teardownRandomObject" finished-at="2025-08-12T02:37:41 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownRandomObject -->
+      </class> <!-- testCases.login_Tests.TC001_LoginTest -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2025-08-12T02:37:41 EEST" name="edgeTest" finished-at="2025-08-12T02:40:07 EEST" duration-ms="146230">
+      <class name="testCases.login_Tests.TC002_Login_DataDrivenTesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:47 EEST" name="setup" finished-at="2025-08-12T02:37:51 EEST" duration-ms="3235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:51 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:37:52 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:52 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:37:52 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:52 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:37:53 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:53 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:37:55 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="1792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:55 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:37:58 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="3144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method signature="Verify_Login_with_dataDrivenTesting(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:37:58 EEST" name="Verify_Login_with_dataDrivenTesting" data-provider="loginData" finished-at="2025-08-12T02:38:01 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="2715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_dataDrivenTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.login_Tests.TC002_Login_DataDrivenTesting@2d29b4ee]" started-at="2025-08-12T02:38:01 EEST" name="teardown" finished-at="2025-08-12T02:38:01 EEST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.login_Tests.TC002_Login_DataDrivenTesting -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@6e2aa843]" started-at="2025-08-12T02:38:14 EEST" name="setup" finished-at="2025-08-12T02:38:17 EEST" duration-ms="3103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_SearchEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@6e2aa843]" started-at="2025-08-12T02:38:17 EEST" name="Verify_SearchEmployee" finished-at="2025-08-12T02:38:25 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="8528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest@6e2aa843]" started-at="2025-08-12T02:38:25 EEST" name="teardown" finished-at="2025-08-12T02:38:26 EEST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC004_SearchforEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@1224144a]" started-at="2025-08-12T02:38:54 EEST" name="setup" finished-at="2025-08-12T02:38:59 EEST" duration-ms="4014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@1224144a]" started-at="2025-08-12T02:38:59 EEST" name="Verify_LoginWithNewEmployee" finished-at="2025-08-12T02:39:03 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest.Verify_TerminateEmployeeContract" duration-ms="4508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginWithNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest@1224144a]" started-at="2025-08-12T02:39:03 EEST" name="teardown" finished-at="2025-08-12T02:39:03 EEST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC007_LoginAsTerminatedEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@6f36c2f0]" started-at="2025-08-12T02:38:26 EEST" name="setup" finished-at="2025-08-12T02:38:29 EEST" duration-ms="3228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_LoginWithNewEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@6f36c2f0]" started-at="2025-08-12T02:38:29 EEST" name="Verify_LoginWithNewEmployee" finished-at="2025-08-12T02:38:32 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginWithNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest@6f36c2f0]" started-at="2025-08-12T02:38:32 EEST" name="teardown" finished-at="2025-08-12T02:38:32 EEST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC005_LoginNewEmployeeTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@69ee81fc]" started-at="2025-08-12T02:38:01 EEST" name="setup" finished-at="2025-08-12T02:38:04 EEST" duration-ms="3195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@69ee81fc]" started-at="2025-08-12T02:38:04 EEST" name="Verify_AddEmployee" finished-at="2025-08-12T02:38:13 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="9217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest@69ee81fc]" started-at="2025-08-12T02:38:13 EEST" name="teardown" finished-at="2025-08-12T02:38:14 EEST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest -->
+      <class name="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:17 EEST" name="setup" finished-at="2025-08-12T02:39:20 EEST" duration-ms="3107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_AddingVacancy()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:20 EEST" name="Validate_AddingVacancy" finished-at="2025-08-12T02:39:31 EEST" depends-on-methods="testCases.login_Tests.TC001_LoginTest.Verify_Login" duration-ms="11408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddingVacancy -->
+        <test-method signature="Validate_AddingCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:31 EEST" name="Validate_AddingCandidate" finished-at="2025-08-12T02:39:36 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingVacancy" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddingCandidate -->
+        <test-method signature="Validate_AddCandidateToShortList()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:36 EEST" name="Validate_AddCandidateToShortList" finished-at="2025-08-12T02:39:41 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddingCandidate" duration-ms="5656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AddCandidateToShortList -->
+        <test-method signature="Validate_SchedulingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:41 EEST" name="Validate_SchedulingInterview" finished-at="2025-08-12T02:39:49 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_AddCandidateToShortList" duration-ms="7782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SchedulingInterview -->
+        <test-method signature="Validate_PassingInterview()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:49 EEST" name="Validate_PassingInterview" finished-at="2025-08-12T02:39:55 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_SchedulingInterview" duration-ms="5583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PassingInterview -->
+        <test-method signature="Validate_OfferJob()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:39:55 EEST" name="Validate_OfferJob" finished-at="2025-08-12T02:40:00 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_PassingInterview" duration-ms="5608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_OfferJob -->
+        <test-method signature="Validate_HiringCandidate()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:40:00 EEST" name="Validate_HiringCandidate" finished-at="2025-08-12T02:40:07 EEST" depends-on-methods="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test.Validate_OfferJob" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HiringCandidate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test@700fb871]" started-at="2025-08-12T02:40:07 EEST" name="teardown" finished-at="2025-08-12T02:40:07 EEST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@f58853c]" started-at="2025-08-12T02:38:32 EEST" name="setup" finished-at="2025-08-12T02:38:35 EEST" duration-ms="3340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_TerminateEmployeeContract()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@f58853c]" started-at="2025-08-12T02:38:35 EEST" name="Verify_TerminateEmployeeContract" finished-at="2025-08-12T02:38:54 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="18958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TerminateEmployeeContract -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest@f58853c]" started-at="2025-08-12T02:38:54 EEST" name="teardown" finished-at="2025-08-12T02:38:54 EEST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC006_TerminateEmployeeContractTest -->
+      <class name="testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@29f7cefd]" started-at="2025-08-12T02:39:03 EEST" name="setup" finished-at="2025-08-12T02:39:07 EEST" duration-ms="3420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_AddEmployee()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@29f7cefd]" started-at="2025-08-12T02:39:07 EEST" name="Verify_AddEmployee" finished-at="2025-08-12T02:39:16 EEST" depends-on-methods="testCases.EmployeeEndtoEnd_Tests.TC003_AddEmployeeTest.Verify_AddEmployee" duration-ms="9809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest@29f7cefd]" started-at="2025-08-12T02:39:16 EEST" name="teardown" finished-at="2025-08-12T02:39:17 EEST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.EmployeeEndtoEnd_Tests.TC008_RemoveEmployeeTest -->
+      <class name="testCases.login_Tests.TC001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.login_Tests.TC001_LoginTest@49c90a9c]" started-at="2025-08-12T02:37:41 EEST" name="setup" finished-at="2025-08-12T02:37:44 EEST" duration-ms="3508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@49c90a9c]" started-at="2025-08-12T02:37:44 EEST" name="Verify_Login" finished-at="2025-08-12T02:37:47 EEST" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@49c90a9c]" started-at="2025-08-12T02:37:47 EEST" name="teardown" finished-at="2025-08-12T02:37:47 EEST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardownRandomObject()[pri:0, instance:testCases.login_Tests.TC001_LoginTest@49c90a9c]" started-at="2025-08-12T02:40:07 EEST" name="teardownRandomObject" finished-at="2025-08-12T02:40:07 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownRandomObject -->
+      </class> <!-- testCases.login_Tests.TC001_LoginTest -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- cross-Functional -->
+</testng-results>

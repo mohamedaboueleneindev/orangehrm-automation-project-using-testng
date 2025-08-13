@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Chrome-Smoke]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="MyTest(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardownRandomObject"/>
+          <include name="Validate_AddingCandidate"/>
+          <include name="setup"/>
+          <include name="Validate_AddingVacancy"/>
+        </methods>
+      </class> <!-- testCases.CandidateEndtoEnd_Tests.TC009_CandidateAddingToHiring_Test -->
+      <class name="testCases.login_Tests.TC001_LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardownRandomObject"/>
+          <include name="setup"/>
+          <include name="Verify_Login"/>
+        </methods>
+      </class> <!-- testCases.login_Tests.TC001_LoginTest -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [Chrome-Smoke] -->
